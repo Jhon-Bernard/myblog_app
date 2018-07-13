@@ -52,3 +52,26 @@ footer ul{
   float: right;
   list-style-type: none;
 }
+
+.article-meta-details{
+  border-top: 1px solid #eaeaea;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  font-weight: bold;
+}
+
+.article-title {
+  font-size: 1.9em;
+  font-weight: bold;
+  border-bottom: 1px solid #eaeaea;
+  margin-bottom: 15px;
+  padding-bottom: 10px;
+}
+.article-title a {
+  color: #337ab7;
+}
+
+.article-actions{
+  border-top: 1px solid #eaeaea;
+  padding-top: 5px;
+}
