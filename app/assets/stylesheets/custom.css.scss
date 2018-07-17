@@ -86,3 +86,17 @@ footer ul{
   padding-left: 0;
 
 }
+
+/* Flash messages */
+
+.danger {
+  color: #ff6969;
+  font-size: 14px;
+  text-align: center;
+}
+
+.success, .notice {
+  color: #24acd6;
+  font-size: 14px;
+  text-align: center;
+}
