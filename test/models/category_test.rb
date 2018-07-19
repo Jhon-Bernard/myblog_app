@@ -1,6 +1,6 @@
 require 'test_helper'
 
-class CategoryTest < ActiveSupport::TestCase
+class CategoryTest < ActiveSupport
 
   def setup
     @category = Category.new(name: "sports")
@@ -8,5 +8,7 @@ class CategoryTest < ActiveSupport::TestCase
 
   test "category should be valid" do
     assert @category.valid?
-    end
+  end
+
+
 end

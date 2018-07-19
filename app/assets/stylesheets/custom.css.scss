@@ -2,58 +2,59 @@ $navbar-default-bg: #0055e2;
 @import "bootstrap-sprockets";
 @import "bootstrap";
 
-#logo{
+#logo {
   float: left;
   color: #fff;
   font-size: 2.3em;
   font-weight: bold;
 }
+
 div#nav_cont {
   padding: 2px 13px;
 }
 
-.center{
+.center {
   text-align: center;
 }
 
-.jumbotron{
+.jumbotron {
   background-image: asset-url('island.jpg');
   background-size: cover;
   height: 800px;
 }
 
-.jumbotron h1{
+.jumbotron h1 {
   color: #fff;
   text-align: center;
   font-weight: bold;
 
 }
 
-.btn-xlarge{
+.btn-xlarge {
   font-size: 1.7em;
   background-color: #d9534f;
 }
 
-footer{
+footer {
   margin-top: 45px;
   padding-top: 5px;
   border-top: 1px solid #eaeaea;
 }
 
-footer a{
+footer a {
   color: #222;
 }
 
-footer small{
+footer small {
   float: left;
 }
 
-footer ul{
+footer ul {
   float: right;
   list-style-type: none;
 }
 
-.article-meta-details{
+.article-meta-details {
   border-top: 1px solid #eaeaea;
   margin-top: 15px;
   margin-bottom: 15px;
@@ -67,21 +68,22 @@ footer ul{
   margin-bottom: 15px;
   padding-bottom: 10px;
 }
+
 .article-title a {
   color: #337ab7;
 }
 
-.article-actions{
+.article-actions {
   border-top: 1px solid #eaeaea;
   padding-top: 5px;
 }
 
-.navbar-default .navbar-nav > li > a{
+.navbar-default .navbar-nav > li > a {
   color: #fff;
   font-size: 17px;
 }
 
-.listing{
+.listing {
   list-style: none;
   padding-left: 0;
 
@@ -99,4 +101,11 @@ footer ul{
   color: #24acd6;
   font-size: 14px;
   text-align: center;
+}
+
+.profile-pic img {
+  max-width: 100%;
+  width: 45px;
+  height: 45px;
+
 }

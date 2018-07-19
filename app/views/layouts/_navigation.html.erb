@@ -42,9 +42,9 @@
       </form>
         <ul class="nav navbar-nav navbar-right">
           <% if logged_in? %>
-            <li><%= link_to "Logout", logout_path, method: :delete %></li>
+            <li><%= link_to "Logout", logout_path, method: :get %></li>
             <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Your Profile <%= "Admin" if current_user.admin? %> <span class="caret"></span></a>
+              <span href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="profile-pic"><%= link_to gravatar_for(current_user), user_path(current_user)%> </span><%= "Admin" if current_user.admin? %></span>
               <ul class="dropdown-menu">
                 <li><%= link_to "Edit your profile", edit_user_path(current_user) %></li>
                 <li><%= link_to "View your profile", user_path(current_user) %></li>
